@@ -1,0 +1,201 @@
+$bor1: 2px solid #000
+
+*
+	margin: 0
+	padding: 0
+	
+
+.main_btn_1, .main_btn_2, .main_text_text, .main_btn_btn, .logo_and_nav, .main_btn, .main_main_text, .main_main_main_text, .main_main, .main_main_img, .main, .main_text, .null1, .null2, .header_block, .main_block, .footer_block
+
+.header_block, .logo_and_nav, .nav_ul, img, ul.nav_ul li
+	background-color: #363d42
+
+.header_block
+	height: 50px
+
+	.logo_and_nav
+		padding-top: 5px
+		width: 50vw
+		height: auto
+		margin-left: auto
+		margin-right: auto
+
+		img
+			padding-top: 3px
+			width: 30px
+			height: 30px
+
+		ul.nav_ul li
+			list-style-type: none
+			display: inline
+			margin-left: 20px
+
+		ul.nav_ul a
+			text-decoration: none
+			color: #fff
+			font-size: 30px
+			background-color: #363d42
+
+		ul.nav_ul a:hover
+			color: silver
+			border-top: 2px solid #fff
+				
+.main_block
+	height: 85.8vh
+
+	display: grid
+	grid-template-areas: "null1 main null2"
+	grid-template-columns: 10% 1fr 10%;
+
+	.null1
+		grid-area: null1;
+	.null2
+		grid-area: null2;
+	.main
+		grid-area: main;
+		display: grid
+		grid-template-areas: "main_text" "main_main" "main_btn"
+		grid-template-rows: 4% 1fr 10%;
+
+		.main_text
+			grid-area: main_text
+			.main_text_text
+				padding-top: 5px
+				padding-bottom: 5px
+				width: 250px
+				margin-left: auto
+				margin-right: auto
+				font-family: oswald_bold
+
+		.main_main
+			grid-area: main_main
+			display: grid
+			grid-template-areas: "mmg mmt"
+			grid-template-columns: 30% 70%
+
+			.main_main_img
+				grid-area: mmg
+				background: url('../img/metro.gif')
+				background-size: cover
+				background-repeat: no-repeat
+				background-position: center center
+				margin-bottom: 18px
+			.main_main_text
+				grid-area: mmt
+				.main_main_main_text
+					width: 80%
+					margin-left: auto
+					margin-right: auto
+					font-family: opensans_regular
+					font-size: 17px
+					letter-spacing: 0.8px
+					padding-top: 15%
+					
+					h1
+						background: linear-gradient(45deg, #fff, #C5DDE8)
+						font-family: opensans_bold
+					.idiot
+						text-decoration: line-through
+					.p3
+						background: linear-gradient(45deg, #fff, #C5DDE8)
+					h3
+						font-size: 15px	
+		.main_btn
+			grid-area: main_btn
+			display: grid
+			grid-template-areas: "btn1 btn2"
+			button
+				width: 80%
+				border: none
+				background-color: #9bc590
+				font-size: 21px
+				font-family: opensans_bold
+				padding: 4px
+				border-radius: 4px
+			button:hover
+				background-color: #9bc542
+
+					
+.footer_block
+	height: 5vh
+	background-color: #363d42
+	margin-top: 8px
+
+.reg_block
+	position: fixed
+	top: 32%
+	left: -68%
+	background-color: #000
+	opacity: 0.9
+	color: #fff
+	width: 30%
+	height: 30%
+	z-index: 1000
+	border-radius: 13px
+
+	.reg_b1
+		background-color: #000
+		border-radius: 13px
+		img
+			height: 25px
+			width: 25px
+			border-radius: 15px
+			margin-top: 4px
+			margin-left: 4px
+	.reg_b2
+		text-align: center
+		background-color: grey
+		font-family: opensans_bold
+		font-size: 30px
+	.reg_b3
+		text-align: center
+		background-color: #000
+		button
+			border: none
+			background-color: #9bc590
+			font-size: 16px
+			font-family: opensans_bold
+			width: 150px
+			padding: 4px
+			border-radius: 4px
+		button:hover
+			background-color: #9bc542
+
+.login_block
+	position: fixed
+	top: 32%
+	left: -68%
+	background-color: #000
+	opacity: 0.8
+	color: #fff
+	width: 30%
+	height: 30%
+	z-index: 1000
+
+	.login_b1
+		background-color: #000
+		border-radius: 13px
+		img
+			height: 25px
+			width: 25px
+			border-radius: 15px
+			margin-top: 4px
+			margin-left: 4px
+	.login_b2
+		text-align: center
+		background-color: grey
+		font-family: opensans_bold
+		font-size: 30px
+	.login_b3
+		text-align: center
+		background-color: #000
+		button
+			border: none
+			background-color: #9bc590
+			font-size: 16px
+			font-family: opensans_bold
+			width: 100px
+			padding: 4px
+			border-radius: 4px
+		button:hover
+			background-color: #9bc542

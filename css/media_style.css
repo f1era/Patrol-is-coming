@@ -1,0 +1,5 @@
+@media screen and (max-width: 640px) {
+	.main_block .main .main_main {
+  		grid-template-columns: 40% 60%;
+}
+}
