@@ -41,6 +41,11 @@ $bor1: 2px solid #000
 			border-top: 2px solid #fff
 				
 .main_block
+	background-image: url('../img/bck.png')
+	background-color: silver
+	background-size: cover
+	padding-bottom: 8px
+	opacity: 1
 	height: 85.8vh
 
 	display: grid
@@ -74,25 +79,34 @@ $bor1: 2px solid #000
 			grid-template-columns: 30% 70%
 
 			.main_main_img
+				background: linear-gradient(45deg, #fff, #C5DDE8)
 				grid-area: mmg
-				background: url('../img/metro.gif')
+				background: url('../img/metro.png')
 				background-size: cover
 				background-repeat: no-repeat
 				background-position: center center
 				margin-bottom: 18px
+				opacity: 1
 			.main_main_text
+				opacity: 1
 				grid-area: mmt
+
 				.main_main_main_text
+					background-color: #000
+					border-radius: 10px
+					opacity: 0.9 	
+					color: #fff
+					border: 1px solid #000
 					width: 80%
 					margin-left: auto
 					margin-right: auto
 					font-family: opensans_regular
 					font-size: 17px
 					letter-spacing: 0.8px
-					padding-top: 15%
+					margin-top: 15%
+					padding: 10px
 					
 					h1
-						background: linear-gradient(45deg, #fff, #C5DDE8)
 						font-family: opensans_bold
 					.idiot
 						text-decoration: line-through
@@ -107,19 +121,23 @@ $bor1: 2px solid #000
 			button
 				width: 80%
 				border: none
-				background-color: #9bc590
+				background-color: silver
+				color: #000
 				font-size: 21px
 				font-family: opensans_bold
 				padding: 4px
 				border-radius: 4px
+				border: 2px solid #000
 			button:hover
 				background-color: #9bc542
+				color: #fff
+
 
 					
 .footer_block
 	height: 5vh
 	background-color: #363d42
-	margin-top: 8px
+	paddin-top: 8px
 
 .reg_block
 	position: fixed
@@ -158,6 +176,7 @@ $bor1: 2px solid #000
 			width: 150px
 			padding: 4px
 			border-radius: 4px
+			border: 2px solid #000
 		button:hover
 			background-color: #9bc542
 
