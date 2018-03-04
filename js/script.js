@@ -66,9 +66,4 @@ $(document).ready(function(){
 
 
 
-	$('.header_block').click(function(){
-		alert(regblock);
-		alert(loginblock);
-	});
-
 });
