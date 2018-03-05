@@ -1,5 +1,106 @@
-@media screen and (max-width: 640px) {
-	.main_block .main .main_main {
-  		grid-template-columns: 40% 60%;
+@media screen and (max-width: 1024px) {
+  .index_div .main_block {
+    width: 90%;
+  }
 }
+
+@media screen and (max-width: 800px) {
+  .index_div .main_block {
+    width: 100%;
+  }
+  .index_div .header_block .header_text {
+    width: 500px;
+  }
+  .index_div .header_block .header_text li {
+    font-size: 28px;
+  }
+  .index_div .header_block .header_text li img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .index_div .main_block {
+    grid-template-columns: 35% 65%;
+  }
+  .index_div .header_block .header_text {
+    width: 500px;
+  }
+  .index_div .header_block .header_text li {
+    font-size: 25px;
+  }
+  .index_div .header_block .header_text li img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .index_div {
+    grid-template-rows: 7% 1fr 10%;
+  }
+  .index_div .main_block {
+    width: 100%;
+    grid-template-areas: "main_img" "main_text";
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 1fr;
+  }
+  .index_div .header_block .header_text {
+    width: 100%;
+  }
+  .index_div .header_block .header_text li {
+    font-size: 25px;
+  }
+  .index_div .header_block .header_text li img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .index_div {
+    grid-template-rows: 7% 1fr 10%;
+  }
+  .index_div .main_block {
+    width: 100%;
+    grid-template-areas: "main_img" "main_text";
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 1fr;
+  }
+  .index_div .header_block .header_text {
+    width: 100%;
+  }
+  .index_div .header_block .header_text li {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  .index_div .header_block .header_text li img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .index_div {
+    height: 150vh;
+    grid-template-rows: 6% 1fr 10%;
+  }
+  .index_div .main_block {
+    width: 100%;
+    grid-template-areas: "main_img" "main_text";
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 1fr;
+  }
+  .index_div .header_block .header_text {
+    width: 100%;
+  }
+  .index_div .header_block .header_text li {
+    margin-left: 18px;
+    font-size: 17px;
+  }
+  .index_div .header_block .header_text li img {
+    width: 30px;
+    height: 30px;
+  }
 }
