@@ -4,10 +4,11 @@ $bor1: 1px solid #000
 	margin: 0
 	padding: 0
 
-.main_text_text, .header_text, .main_btn, .main_text_text, .main_text, .main_img, .index_div, .header_block, .main_block, .footer_block
+.main_text_text_text, .main_text_text, .header_text, .main_btn, .main_text_text, .main_text, .main_img, .index_div, .header_block, .main_block, .footer_block
 	
-
 .index_div
+	background-image: url('../img/bck.jpg')
+
 	width: 100%
 	height: 100vh
 
@@ -61,39 +62,40 @@ $bor1: 1px solid #000
 			grid-area: main_text
 
 			.main_text_text
-				height: 70%
+				position: relative
+				height: 60%
 
 				.main_text_text_header
-					width: 90%
+					width: 100%
 					height: 10%
 					margin-left: auto
 					margin-right: auto
 					margin-top: 3%
-
-					border: 1.3px solid silver
-					border-radius: 3px 3px 0 0
-
-					background-color: #f7f7f7
+					padding-top: 24%
 
 					p
+						color: #fff
 						font-family: opensans_bold						
-						text-align: center
-						font-size: 30px
+						text-align: right
+						font-size: 40px
 
 				.main_text_text_text
-					width: 90%
-					height: 80%
+					position: absolute
+					top: 70%
+					right: 0
+					width: 60%
+					height: 20%
 					margin-left: auto
 					margin-right: auto
-					margin-bottom: 3%
+					text-align: left
+					
+					font-size: 16px
+					color: #fff
+					font-family: opensans_bold
 
-					border-bottom: 1.3px solid silver
-					border-left: 1.3px solid silver
-					border-right: 1.3px solid silver
-					border-radius: 0 0 3px 3px
+					
 
 					p
-						padding: 18px
 						font-family: opensans_regular
 
 
@@ -102,34 +104,45 @@ $bor1: 1px solid #000
 
 				.reg_btn
 
-					button
-						margin-left: 9%
-						margin-top: 8%
+					margin-left: 23%
+					margin-top: 4%
 
+					button
 						background-color: #fff
 						border: none
-						width: 40%
-						height: 30%
+						width: 25%
+						height: 45px
 
-						border-radius: 5px
 						font-family: opensans_regular
-						color: #007cff
+						color: #000
 						font-size: 20px
 
-						border: 1.3px solid #007cff
+						border: 1.4px solid #000
+
+					button:hover
+						background-color: #000
+						border: none
+
+						font-family: opensans_regular
+						color: #fff
+
+						cursor: pointer
 
 				.login_btn
 
 					button
-						background-color: #007cff
+						background-color: #000
 						border: none
-						width: 40%
-						height: 30%
-
-						border-radius: 5px
+						width: 25%
+						height: 45px
 						font-family: opensans_regular
 						color: #fff
 						font-size: 20px
+
+					button:hover
+						border: 1.4px solid silver
+						cursor: pointer
+
 
 	.footer_block
 		grid-area: footer
@@ -139,4 +152,5 @@ $bor1: 1px solid #000
 		border-top: 1.4px solid silver
 		font-family: opensans_bold
 
+		
 
