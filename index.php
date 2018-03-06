@@ -40,14 +40,12 @@
           </div>
         </div>
         <div class="main_btn">
-          <form method="post">
           <span class="reg_btn">
             <button>Регистрация</button>
           </span>
           <span class="login_btn">
             <button>Вход</button>
           </span>
-        </form>
         </div>
       </div>
     </div>

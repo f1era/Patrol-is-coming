@@ -14,15 +14,17 @@
 }
 
 .index_div .header_block {
+  position: relative;
   grid-area: header;
   border-bottom: 1.4px solid silver;
   background: white;
 }
 
 .index_div .header_block .header_text {
-  width: 400px;
-  padding-top: 1.5%;
-  margin-left: auto;
+  position: absolute;
+  top: 14px;
+  right: 0;
+  width: 21%;
 }
 
 .index_div .header_block .header_text li {
@@ -42,7 +44,7 @@
 }
 
 .index_div .main_block {
-  width: 90%;
+  width: 100%;
   margin-right: auto;
   grid-area: main;
   display: grid;
@@ -55,7 +57,7 @@
   background-image: url("../img/metro_header.png");
   background-position: 70% 68%;
   background-repeat: no-repeat;
-  background-size: 140%;
+  background-size: cover;
 }
 
 .index_div .main_block .main_text {
@@ -71,7 +73,7 @@
   position: absolute;
   top: 50%;
   width: 100%;
-  padding: 10px;
+  padding-left: 20px;
 }
 
 .index_div .main_block .main_text .main_text_text .main_text_text_header p {
@@ -83,8 +85,9 @@
 .index_div .main_block .main_text .main_text_text .main_text_text_text {
   position: absolute;
   top: 70%;
-  width: 60%;
-  padding: 10px;
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 10px;
   text-align: left;
   font-size: 16px;
   color: #fff;
@@ -99,15 +102,12 @@
   height: 50%;
 }
 
-.index_div .main_block .main_text .main_btn form {
-  margin-top: 2%;
-}
-
 .index_div .main_block .main_text .main_btn .reg_btn {
   margin-left: 3%;
 }
 
 .index_div .main_block .main_text .main_btn .reg_btn button {
+  margin-top: 10px;
   background-color: #fff;
   border: none;
   width: 25%;
