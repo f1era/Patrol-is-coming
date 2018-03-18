@@ -15,3 +15,30 @@ font-weight: normal;
 font-style: normal;
 
 }
+
+@font-face{
+
+font-family: 'krona';
+src: url('../font/krona/KronaOne-Regular.ttf');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face{
+
+font-family: 'roboto_regular';
+src: url('../font/roboto/RobotoSlab-Regular.ttf');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face{
+
+font-family: 'roboto_bold';
+src: url('../font/roboto/RobotoSlab-Bold.ttf');
+font-weight: normal;
+font-style: normal;
+
+}
